@@ -1,7 +1,6 @@
 import json
 import codecs
-from tkinter import E
-from .dict import Dict
+from dict import Dict
 
 class Reader:
 
