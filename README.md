@@ -8,5 +8,6 @@ Search for bible passages from the terminal.
 2. You will be prompted to enter a version and bible passage. The format should be `[version] [book] [passage]`, where passages should be in the form `a:b`, `a:b-c`, `a:b-c:d`, or `a`. Note that all input is case insensitive.
 
 	E.g. `kjv psalms 23:1-6`
+3. The input `[version] same` after a valid input would yield the same verses as before, but in a different version.
 
 You can add your own `.json` versions, or edit `dict.py` to include your preferred abbreviations.
