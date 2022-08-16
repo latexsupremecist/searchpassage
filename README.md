@@ -9,4 +9,4 @@ Search for bible passages from the terminal.
 
 	E.g. `kjv psalms 23:1-6`
 
-You can add your own `.json` version, or edit `dict.py` to include your preferred abbreviations.
+You can add your own `.json` versions, or edit `dict.py` to include your preferred abbreviations.
