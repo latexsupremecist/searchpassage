@@ -1,6 +1,6 @@
 import json
 import codecs
-from dict import Dict
+from .dict import Dict
 
 class Reader:
 

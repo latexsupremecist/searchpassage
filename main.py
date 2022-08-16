@@ -1,4 +1,4 @@
-from reader import Reader
+from .reader import Reader
 import os
 
 translations = ["KJV", "CUV", "NCV"]
