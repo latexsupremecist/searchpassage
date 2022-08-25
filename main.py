@@ -1,4 +1,4 @@
-from .reader import Reader
+from reader import Reader
 import os
 
 translations = ["KJV", "CUV", "NCV"]
@@ -35,6 +35,10 @@ class Main:
 
         while(True):
             ans = input("Enter version and passage (or q to quit): ")
+            if ans == "":
+                print("\nNo input.\n")
+                continue
+
             ans = ans.split()
             
             status = self.get_version(ans[0])
